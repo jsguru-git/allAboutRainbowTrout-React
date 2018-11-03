@@ -1,0 +1,34 @@
+
+.window-learn{
+	background-image: url("/window_learn.png");
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+	width: 100%;
+	height: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+	background-position: center;
+	padding-top: 13.5%;
+	padding-bottom: 10.5%;
+	padding-left: 8%;
+	padding-right: 10%;
+
+	.content-container{
+		width: 80%;
+		text-align: center;
+		margin: auto auto;
+
+		.loading{
+			position: absolute;
+			width: 25%;
+			top: 40%;
+			left: 35%;
+			z-index: 1;
+		}
+	}
+
+}

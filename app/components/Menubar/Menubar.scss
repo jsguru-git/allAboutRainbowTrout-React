@@ -1,0 +1,18 @@
+
+
+.menubar{
+  z-index: 1000;
+  position: absolute;
+  top:6px;
+  left:6px;
+
+  .button-home{
+    width:6vw;
+    margin-top:4px;
+  }
+
+  .drop-in{
+    animation: animation-drop-in 865ms linear both;
+  }
+
+}

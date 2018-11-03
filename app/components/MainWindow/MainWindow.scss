@@ -1,0 +1,50 @@
+.window-main{
+
+	background-image:url("/window_home.png");
+	position: absolute;
+	top:2%;
+	left:50%;
+	transform: translateX(-50%);
+	z-index: 1;
+	width:100%;
+	height:96%;
+	margin-left:auto;
+	margin-right:auto;
+    background-size: contain;
+    background-position: center;
+
+    
+
+	.tile-container{
+		position: relative;
+		width:75%;
+		height:55%;
+		top:25%;
+		left:12%;
+		padding:2% 1%;
+
+		.tile{
+			visibility: hidden;
+			width:35%;
+			vertical-align: middle;
+			padding:0px 0px;
+			img{
+				width:100%;
+			}
+			&:not(:first-child) {
+				margin-left:3%;
+			}
+			&.pop-in,&.slide-in,&.slide-in-long{
+				visibility: visible;
+			}
+		}
+
+
+
+	}
+
+}
+
+.hidden{
+	display:none;
+}

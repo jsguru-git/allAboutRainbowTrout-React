@@ -1,0 +1,21 @@
+.hud-score-container{
+  width:auto;
+  display: inline-block;
+  color: white;
+  position: relative;
+
+  .hud-score{
+    height:10vw;
+  }
+
+  .score{
+    position: absolute;
+    right: 3vw;
+    bottom: 2.5vw;
+    font-size: 1.3rem;
+    
+    @media (min-width:1024px) {
+      font-size: 1.8rem;
+    }
+  }
+}
